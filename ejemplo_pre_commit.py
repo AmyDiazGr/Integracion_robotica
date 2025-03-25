@@ -37,7 +37,7 @@ class Calculadora:  # ← D101: Missing docstring in public class
 
 
 def ejecutar():
-    """Guarda historial."""
+    """Imprime mensaje de incio de ejecucion."""
     print("Iniciando ejecución")  # ← sin docstring, estilo incorrecto
 
 

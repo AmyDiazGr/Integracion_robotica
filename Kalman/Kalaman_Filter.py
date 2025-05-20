@@ -15,7 +15,6 @@ Dependencies :
 import cv2
 import numpy as np
 from inference_sdk import InferenceHTTPClient
-
 from sort import Sort  # Asegúrate de tener sort.py en tu proyecto
 
 # --- Roboflow Client Setup ---

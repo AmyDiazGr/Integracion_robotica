@@ -40,5 +40,35 @@ pip install opencv-python numpy inference-sdk filterpy scikit-image matplotlib s
 4.	Seguimiento con SORT: Se utiliza el algoritmo SORT para asociar y seguir objetos detectados entre cuadros del video.
 5.	Visualización en tiempo real: Se dibujan los bounding boxes, los IDs de seguimiento y los centros de los objetos detectados sobre cada frame mostrado con OpenCV.
 
+## 🧠 Acerca de SORT
+
+SORT (Simple Online and Realtime Tracking) es un algoritmo de seguimiento multiobjeto basado en filtros de Kalman y el algoritmo húngaro de asignación. Está diseñado para ser eficiente y operar en tiempo real.
+Principales características:
+•	Seguimiento basado en predicciones y correcciones con Kalman Filter.
+•	Asociación de detecciones por IoU.
+•	Capacidad para rastrear objetos incluso con detecciones intermitentes.
+
+## 🔑 API Key
+
+•	Este proyecto utiliza una clave de API para conectarse a Roboflow:
+
+```bash
+api_key="DZQlW51niZIjUbe9sZMN"
+
+```
+
+## 🔐 Recomendación: 
+Para un uso personalizado, crea tu propia cuenta en Roboflow y reemplaza esta clave por la tuya propia.
+
+## 🧪 Ejecución del Proyecto
+
+Una vez que tengas todas las dependencias instaladas y el video de entrada en la ruta correcta, simplemente ejecuta:
+
+```bash
+python main.py
+
+```
+
+
 
 

@@ -26,7 +26,7 @@ pip install opencv-python numpy inference-sdk filterpy scikit-image matplotlib s
 
 ## 📁 Estructura del Proyecto
 
-├── main.py                 # Script principal para detección y tracking \
+├── Kalman_Filter.py                 # Script principal para detección y tracking \
 ├── sort.py                 # Algoritmo SORT para seguimiento multiobjeto \
 ├── balones.avi             # Video de entrada (puedes reemplazarlo por tu propio video)\
 ├── frame_temp.jpg          # Imagen temporal generada automáticamente\
@@ -65,7 +65,7 @@ Para un uso personalizado, crea tu propia cuenta en Roboflow y reemplaza esta cl
 Una vez que tengas todas las dependencias instaladas y el video de entrada en la ruta correcta, simplemente ejecuta:
 
 ```bash
-python main.py
+python Kalman_Filter.py
 
 ```
 

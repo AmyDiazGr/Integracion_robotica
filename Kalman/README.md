@@ -21,4 +21,15 @@ Puedes instalar los requisitos principales con:
 
 ```bash
 pip install opencv-python numpy inference-sdk filterpy scikit-image matplotlib scipy
+```
+
+
+## 📁 Estructura del Proyecto
+
+├── main.py           # Script principal para detección y tracking
+├── sort.py           # Algoritmo SORT para seguimiento multiobjeto
+├── balones.avi       # Video de entrada (puedes reemplazarlo por tu propio video)
+├── frame_temp.jpg    # Imagen temporal generada automáticamente
+└── README.md         # Este archivo
+
 

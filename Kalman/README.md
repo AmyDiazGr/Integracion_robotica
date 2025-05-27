@@ -60,7 +60,7 @@ api_key="DZQlW51niZIjUbe9sZMN"
 ## 🔐 Recomendación: 
 Para un uso personalizado, crea tu propia cuenta en Roboflow y reemplaza esta clave por la tuya propia.
 
-## 🧪 Ejecución del Proyecto
+## 🏃🏻‍♀️ Ejecución del Proyecto
 
 Una vez que tengas todas las dependencias instaladas y el video de entrada en la ruta correcta, simplemente ejecuta:
 

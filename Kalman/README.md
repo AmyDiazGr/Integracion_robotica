@@ -9,7 +9,7 @@ Se toma un video como entrada, se realiza la inferencia de cada cuadro para dete
 
 Para ejecutar este proyecto necesitas tener instaladas las siguientes librerías de Python:
 
-- `opencv-python`
+- `opencv-python` \
 - `numpy`
 - `inference-sdk` (cliente de Roboflow)
 - `filterpy`

@@ -9,7 +9,7 @@ Se toma un video como entrada, se realiza la inferencia de cada cuadro para dete
 
 Para ejecutar este proyecto necesitas tener instaladas las siguientes librerías de Python:
 
-- `opencv-python` \
+- `opencv-python` 
 - `numpy`
 - `inference-sdk` (cliente de Roboflow)
 - `filterpy`
@@ -26,7 +26,7 @@ pip install opencv-python numpy inference-sdk filterpy scikit-image matplotlib s
 
 ## 📁 Estructura del Proyecto
 
-├── main.py           # Script principal para detección y tracking
+├── main.py           # Script principal para detección y tracking \
 ├── sort.py           # Algoritmo SORT para seguimiento multiobjeto
 ├── balones.avi       # Video de entrada (puedes reemplazarlo por tu propio video)
 ├── frame_temp.jpg    # Imagen temporal generada automáticamente
